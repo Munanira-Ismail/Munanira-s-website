@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismail's Website</title>
+    <link rel="stylesheet"type="text/css" href="munanira.css"/>
+</head>
+<body>
+
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#schools">Schools</a> 
+         <a href="#career_prospects">Career Prospects</a>
+        <a href="#work">Work Experience</a> 
+        <a href="biodata.html">Bio Data</a>
+    </div>
+
+    <section id="header">
+        <header>
+            <span class="menu-icon" onclick="openSidebar()">&#9776;</span>
+            <h1> Munanira Ismail - librarian and data scientist</h1>
+            <div id="photo">
+                <img src="ismail.jpeg" alt="ismial" class="photo">
+            </div>
+            <nav>
+                <a href="#schools">Schools</a> |
+                <a href="#hobbies">Hobbies</a> |
+                <a href="#work">Work Experience</a> |
+                <a href="#career_prospects">Career Prospects</a>
+            </nav>
+        </header>
+    </section>
+
+    <section id="schools">
+        <h2>Schools Attended</h2>
+        <div class="schools-grid">
+            <div>2007-2013<br>Madrast Nusrat Primary school</div>
+            <div>2014-2017<br>Bilal Islamic institute kakiri </a></div>
+            <div>2018-2019<br>Bilal Islamic institute kakiri </a></div>
+            <div>2023<br><a href="https://mak.ac.ug/" target="_blank">Makerere University</a></div>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2>Work Experience</h2>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Position</th>
+                <th>Company</th>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>Records Intern</td>
+                <td>Ministry of Health</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>Records management</td>
+                <td>Ministry of Labour</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Quality time</li>
+            <li>Picnics</li>
+            <li>Photography</li>
+            <li>Staying indoors</li>
+            <li>Swimming</li>
+            <li>Streaming series & movies</li>
+        </ul>
+    </section>
+
+    <section id="career_prospects">
+        <h2>Career Prospects</h2>
+        <ul>
+            <li>Become a records management advocate</li>
+            <li>Work in a law firm </li>
+            <li>Get a masters in Library Science</li>
+            <li>Become a venture entrepreneur</li>
+        </ul>
+    </section>
+
+    <script>
+        function openSidebar() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeSidebar() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    </script>
+	
+	<footer> <p>&copy; <b>Munanira Ismail 2024</b>. All rights reserved.</p> </footer>
+</body>
+</html>
