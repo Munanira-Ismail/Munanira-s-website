@@ -46,6 +46,7 @@ header nav a:hover {
     background-color: #52eff2;
 }
 
+
 /* Profile Photo Styling */
 #photo { display: flex; justify-content: center; align-items: center; margin-bottom: 15px; text-align: center; /* Optional: if you have text inside the #photo element */ } 
 .photo { width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 3px solid #4a77a8; transition: transform 0.3s ease; }
